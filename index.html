@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rock, Paper and Scissor Game</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Rock, Paper Scissor</h1>
+    </header>
+
+    <div class="score-board" id="score-board">
+        <div id="user-label" class="badge">user</div>
+        <div id="computer-label" class="badge">compu</div>
+        <span id="user-score">0</span> : <span id="computer-score"> 0</span>
+    </div>
+
+    <div class="result">
+        <p id="change">Paper Cover Rock. You Win!</p>
+    </div>
+
+    <div class="choices">
+        <div id="r" class="choice">
+            <img src="./img/rock.png" alt="">
+        </div>
+        <div id="p" class="choice">
+            <img src="./img/paper.png" alt="">
+        </div>
+        <div id="s" class="choice">
+            <img src="./img/scissor.png" alt="">
+        </div>
+    </div>
+    <div class="resetGame" id="resetGame"><i class="fas fa-sync-alt" onclick="location.reload()"></i></div>
+    <p id="action-message">Make Your Move</p>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
